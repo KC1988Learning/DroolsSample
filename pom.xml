@@ -8,6 +8,8 @@
     <artifactId>SampleProject</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <packaging>kjar</packaging>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.kie/kie-api -->
         <dependency>
@@ -62,6 +64,16 @@
 
     </dependencies>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.kie</groupId>
+                <artifactId>kie-maven-plugin</artifactId>
+                <version>7.46.0.Final</version>
+                <extensions>true</extensions>
+            </plugin>
+        </plugins>
+    </build>
 
 
 </project>
