@@ -17,17 +17,17 @@
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>1</factId>
-      <objectToString>org.example.model.Applicant@6f2cfcc2</objectToString>
+      <objectToString>org.example.model.Applicant@4097cac</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>2</factId>
-      <objectToString>org.example.model.Applicant@2f4205be</objectToString>
+      <objectToString>org.example.model.Applicant@6b98a075</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
     <org.drools.core.audit.event.ObjectLogEvent>
       <type>1</type>
       <factId>3</factId>
-      <objectToString>org.example.model.Applicant@54e22bdd</objectToString>
+      <objectToString>org.example.model.Applicant@2e61d218</objectToString>
     </org.drools.core.audit.event.ObjectLogEvent>
   </events>
 </org.drools.core.audit.WorkingMemoryLog>
@@ -38,15 +38,68 @@
       <type>4</type>
       <activationId>Is of valid age [1]</activationId>
       <rule>Is of valid age</rule>
-      <declarations>$a=org.example.model.Applicant@6f2cfcc2</declarations>
+      <declarations>$a=org.example.model.Applicant@4097cac</declarations>
       <factHandleIds>1</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
     <org.drools.core.audit.event.ActivationLogEvent>
       <type>4</type>
       <activationId>Is of valid age [3]</activationId>
       <rule>Is of valid age</rule>
-      <declarations>$a=org.example.model.Applicant@54e22bdd</declarations>
+      <declarations>$a=org.example.model.Applicant@2e61d218</declarations>
       <factHandleIds>3</factHandleIds>
     </org.drools.core.audit.event.ActivationLogEvent>
   </events>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Is of valid age [1]</activationId>
+      <rule>Is of valid age</rule>
+      <declarations>$a=org.example.model.Applicant@4097cac</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Is of valid age [1]</activationId>
+      <rule>Is of valid age</rule>
+      <declarations>$a=org.example.model.Applicant@4097cac</declarations>
+      <factHandleIds>1</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>6</type>
+      <activationId>Is of valid age [3]</activationId>
+      <rule>Is of valid age</rule>
+      <declarations>$a=org.example.model.Applicant@2e61d218</declarations>
+      <factHandleIds>3</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+    <org.drools.core.audit.event.ActivationLogEvent>
+      <type>7</type>
+      <activationId>Is of valid age [3]</activationId>
+      <rule>Is of valid age</rule>
+      <declarations>$a=org.example.model.Applicant@2e61d218</declarations>
+      <factHandleIds>3</factHandleIds>
+    </org.drools.core.audit.event.ActivationLogEvent>
+  </events>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
+</org.drools.core.audit.WorkingMemoryLog>
+<org.drools.core.audit.WorkingMemoryLog>
+  <version>6.1</version>
+  <events/>
 </org.drools.core.audit.WorkingMemoryLog>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<kmodule xmlns="http://www.drools.org/xsd/kmodule">
-    <kbase name="kBase1" default="true" equalsBehavior="equality" >
-        <ksession name="kSession1" type="stateful" default="true"/>
-        <ksession name="kSession2" type="stateless" default="false">
-            <fileLogger file="drools.log" threaded="true" interval="10"/>
-<!--            <listeners>-->
-<!--                <agendaEventListener type="org.domain.FirstAgendaListener"/>-->
-<!--            </listeners>-->
-        </ksession>
-    </kbase>
-</kmodule>
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<kmodule xmlns="http://www.drools.org/xsd/kmodule">-->
+<!--    <kbase name="kBase1" default="true" equalsBehavior="equality" >-->
+<!--        <ksession name="kSession1" type="stateful" default="true"/>-->
+<!--        <ksession name="kSession2" type="stateless" default="false">-->
+<!--            <fileLogger file="drools.log" threaded="true" interval="10"/>-->
+<!--&lt;!&ndash;            <listeners>&ndash;&gt;-->
+<!--&lt;!&ndash;                <agendaEventListener type="org.domain.FirstAgendaListener"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            </listeners>&ndash;&gt;-->
+<!--        </ksession>-->
+<!--    </kbase>-->
+<!--</kmodule>-->
 
